@@ -26,6 +26,10 @@ Simply add the following system property to activate that feature:
 
     -Dorg.apache.felix.ipojo.handler.auto.primitive=com.peergreen.performance:tracker
 
+Look at the `logs/System.out` file, the handler prints the location of the produced CSV file.
+
+By default, its located in `${java.io.tmpdir}/${timestamp}-ipojo-startup-performance.csv`
+
 Next ?
 ---------
 
