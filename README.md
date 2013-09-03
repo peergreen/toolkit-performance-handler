@@ -16,7 +16,7 @@ Sample:
 Setup
 --------
 
-Add the following bundles in the kernel pom.xml (could be added in `deploy/`).
+Add the following bundles in the kernel `pom.xml` (could be added in `deploy/`).
 
 * `mvn:org.apache.felix:org.apache.felix.eventadmin:1.3.2`
 * `mvn:com.peergreen.ipojo:performance-handler:1.0.0-SNAPSHOT`
@@ -29,4 +29,4 @@ Simply add the following system property to activate that feature:
 Next ?
 ---------
 
-* Introduce a @PerformanceMonitor annotation to activate the handler
+* Introduce a `@PerformanceMonitor` annotation to activate the handler
